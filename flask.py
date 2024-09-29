@@ -4,9 +4,9 @@ import requests
 app = Flask(__name__)
 
 # API Keys for YouTube, Google Custom Search, etc.
-YOUTUBE_API_KEY = 'your-youtube-api-key'
-GOOGLE_API_KEY = 'your-google-api-key'
-CUSTOM_SEARCH_ENGINE_ID = 'your-search-engine-id'
+YOUTUBE_API_KEY = 'AIzaSyDHkWAnldAFnwvJjUQGfq5QwdYceMuv__c'
+GOOGLE_API_KEY = 'AIzaSyD2cYVccGnK_A6mGqUKtMGmmgr6VBXb4EQ'
+CUSTOM_SEARCH_ENGINE_ID = 'fAIzaSyD2cYVccGnK_A6mGqUKtMGmmgr6VBXb4EQ'
 
 # Example function to get YouTube videos
 def get_youtube_videos(search_term):
